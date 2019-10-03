@@ -1,0 +1,8 @@
+{
+  "name": "com.toastapp.folder_structure_generator",
+  "displayName": "com.toastapp.folder_structure_generator",
+  "version": "1.0.0",
+  "unity": "2019.1",
+  "description": "Auto generate folder structure",
+  "type": "tool"
+}
