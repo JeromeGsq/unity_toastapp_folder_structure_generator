@@ -43,7 +43,7 @@ public static class FolderStructureGenerator
         {
             if (!AssetDatabase.IsValidFolder(root + "/" + folders[i]))
             {
-                Debug.Log(root + " == " + folders[i]);
+                AssetDatabase.CreateFolder(root, folders[i]);
             }
 
             root += "/" + folders[i];
