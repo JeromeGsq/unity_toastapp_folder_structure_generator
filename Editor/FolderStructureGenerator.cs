@@ -5,6 +5,7 @@ using UnityEngine;
 [InitializeOnLoad]
 public static class FolderStructureGenerator
 {
+
     [MenuItem("Tools/FolderStructureGenerator/Generate folder structure")]
     private static void GenerateFolderStructure()
     {
@@ -16,12 +17,14 @@ public static class FolderStructureGenerator
 
         GenerateFolder("Project/Fonts/Raws");
 
+        GenerateFolder("Project/Prefabs/UI");
+
         GenerateFolder("Project/Graphics/2D/UI");
         GenerateFolder("Project/Graphics/3D");
         GenerateFolder("Project/Graphics/Animations");
         GenerateFolder("Project/Graphics/Materials/Particles");
 
-        GenerateFolder("Project/ScriptableObjects/UnityWeld/AdaptersOptions");
+        GenerateFolder("Project/Configurations/UnityWeld/AdaptersOptions");
 
         GenerateFolder("Project/Scripts/UI");
         GenerateFolder("Project/Scripts/Utils");
